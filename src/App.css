@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'BwModelica';
+  src: local('BwModelica'), url(./fonts/BwModelica-Light.woff) format('woff');
+  font-weight: normal;
+}
+
+body {
+  margin: 0;
+  font-family: BwModelica;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
