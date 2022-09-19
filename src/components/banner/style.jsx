@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { CustomImg } from "../../globalStyles";
+import styled from 'styled-components';
+import { CustomImg } from '../../globalStyles';
 
 export const BannerWrapper = styled.div`
   margin: 10px;
