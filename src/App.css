@@ -6,7 +6,7 @@
 
 body {
   margin: 0;
-  font-family: BwModelica;
+  font-family: 'BwModelica', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
