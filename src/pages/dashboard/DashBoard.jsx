@@ -10,19 +10,6 @@ const DashBoard = () => {
   const [items, setItems] = useState([]);
   const [query, setQuery] = useState('');
 
-  // This function is used to filter the cards based on the query- Title
-  useEffect(() => {
-    const fetchItems = async () => {
-      // By title
-      const result = songs.filter((value) =>
-        value.title.toLowerCase().includes(query.toLocaleLowerCase())
-      );
-      setItems(result);
-    };
-
-    fetchItems();
-  }, [query]);
-
   // This function is used to filter the cards based on the query- Artist
   useEffect(() => {
     const fetchItems = async () => {
