@@ -5,7 +5,7 @@ export const SideBarWrapper = styled.div`
   background-color: #0f0f0f;
   height: 100vh;
   flex: 1;
-  min-width: 230px;
+  min-width: 300px;
   font-size: 16px;
   background-image: url(${bg});
 

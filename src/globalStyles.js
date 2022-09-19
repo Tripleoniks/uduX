@@ -36,6 +36,7 @@ export const CustomLI = styled.li`
   align-items: center;
   padding: 5px;
   cursor: pointer;
+  margin-top: 0.5rem;
 
   &:hover {
     color: #fbba12;
